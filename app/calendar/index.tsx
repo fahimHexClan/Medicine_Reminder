@@ -65,7 +65,7 @@ export default function CalendarScreen() {
       week.push(<View key={`empty-${i}`} style={styles.calendarDay} />);
     }
 
-    // Add day of the month
+    // Add days of the month
     for (let day = 1; day <= days; day++) {
       const date = new Date(
         selectedDate.getFullYear(),
